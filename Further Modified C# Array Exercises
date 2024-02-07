@@ -1,0 +1,85 @@
+            #region Further Modified C# Array Exercises
+
+            #region Exercise #1: Print a Char Array in Reverse
+            /*
+            char[] chars = { 'a', 'b','c','d','e' };
+
+            Array.Reverse(chars);
+            foreach (char c in chars) 
+            { 
+                Console.Write(c + ", ");
+            }
+            */
+            #endregion
+
+            #region Exercise #2: Calculate the Product of Array Elements
+            /*
+            int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, };
+
+            int sum = 0;
+
+            foreach (int i in nums) 
+            {
+                sum += i;
+            }
+            Console.WriteLine(sum);
+            */
+            #endregion
+
+            #region Exercise #3: Find the Smallest and Largest Elements
+            /*
+            int[] nums = { 19, 22, 94, 12, 53, 454, 759, 54, 92,};
+
+            int maxnum = int.MinValue;
+            int minnum = int.MaxValue;
+
+            foreach (int i in nums) 
+            {
+                if (i > maxnum)
+                {
+                    maxnum = i;
+                }
+                else if (i < minnum) 
+                {
+                    minnum = i;
+                }
+            }
+
+            Console.WriteLine(maxnum);
+            Console.WriteLine(minnum);
+            */
+            #endregion
+
+            #region Exercise #4: Shift an Array Elements to the Left
+            /*
+            int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            int temp;
+            int n = nums.Length;
+            int i;
+
+            foreach (int num in nums)
+            {
+                Console.Write(num + ", ");
+            }
+
+            temp = nums[0];
+            for (i = 0; i < n - 1; i++)
+            {
+                nums[i] = nums[i + 1];
+            }
+            nums[i] = temp;
+
+            Console.WriteLine();
+
+            foreach (int num in nums)
+            {
+                Console.Write(num + ", ");
+            }
+            */
+            #endregion
+
+            #region Exercise #5: Count Prime Numbers in an Array
+
+            #endregion
+
+            #endregion
